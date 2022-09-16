@@ -274,6 +274,8 @@ ABOUT_SECTION
     min-height: 100vh;
     padding-top: 10vh;
     background-color: rgb(235, 232, 232);
+    border-bottom: 2px solid #e4be6c;
+    border-top: 2px solid #e4be6c;
 }
 
 .about .title{
@@ -342,7 +344,7 @@ ABOUT_SECTION
     }
 
     .about .title h1{
-        font-size: 2.7rem;
+        font-size: 3rem;
         -webkit-text-stroke: .9px rgba(0, 0, 0, 0.3);
     }
 
@@ -614,6 +616,7 @@ FOOTER_SECTION_STARTS
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-right: 10px;
 }
 
 .icon{
