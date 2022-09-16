@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Collections</title>
 </head>
 <body>
 
     <section class="main-collections">
         <div class="title">
-            <h1>Welcome To The Home Of Fashion...</h1>
-            <div class="line"></div>
+            <h1 data-aos="fade-down">Welcome To The Home Of Fashion...</h1>
+            <div class="line" data-aos="fade-up"></div>
         </div>
 
 
@@ -118,6 +119,14 @@
 
 
     <script src="https://use.fontawesome.com/8b7b9f4138.js">  </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="java/main.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            duration: 1000
+        });
+    </script>
     
 </body>
 </html> 

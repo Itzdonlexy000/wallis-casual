@@ -673,10 +673,13 @@ FOOTER_SECTION_STARTS
 
 @media screen and (max-width:750px) {
     .footer h1{
-        font-size: 1.9rem;
+        font-size: 1.3rem;
     }
     .footer .container{
         padding: 0 30px;
+    }
+    .footer p{
+        font-size: 1.2rem;
     }
 }
 
@@ -707,21 +710,22 @@ MAIN_COLLECTION_SECTION_STARTS
 }
 
 .main-collections .title h1{
-    font-size: 22px;
+    font-size: 2.2rem;
     color: rgba(0, 0, 0, 0.3);
     padding: 20px;
 }
 
 .main-collections .title .line{
     margin: auto;
-    width: 95%;
-    height: 3px;
+    width: 100%;
+    height: 2px;
     background-color: rgba(0, 0, 0, 0.3);
     margin-bottom: 40px;
 }
 
 .main-collections .container{
     max-width: 95%;
+    padding-bottom: 30px;
 }
 
 .main-collections .row{
@@ -755,4 +759,12 @@ MAIN_COLLECTION_SECTION_STARTS
 
 .label h1{
     color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width:700px) {
+    .main-collections .title h1{
+        font-size: 1.8rem;
+        color: rgba(0, 0, 0, 0.3);
+        padding: 20px;
+    }
 }

@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
     <link href="style/style.css" rel="stylesheet">
     <title>Home</title>
 </head>
@@ -53,7 +56,7 @@
             <div class="row">
 
 
-                <div class="home-section-text">
+                <div class="home-section-text" data-aos="fade-right">
                     <h1>wallis</h1>
                     <h2>casual</h2>
                     <p>bringing out the ego in you...</p>
@@ -64,7 +67,7 @@
                     </div>
                 </div>
 
-                <div class="home-section-img">
+                <div class="home-section-img" data-aos="fade-up">
                     <img src="images/home1.png" class="star">
                 </div>
 
@@ -92,19 +95,19 @@
     <section class="about" id="about">
 
 
-        <div class="title"><h1>Why Wallis <span>?</span></h1> </div>
+        <div class="title" data-aos="fade-down"><h1>Why Wallis <span>?</span></h1> </div>
 
         <div class="container">
             <div class="row">
 
-                <div class="about-image">
+                <div class="about-image" data-aos="fade-up">
                     <img src="images/about.png">
                 </div>
 
                 
 
 
-                <div class="about-text">
+                <div class="about-text" data-aos="fade-right">
                     <p>
                     With over 15 years experience, Wallis fashion designs has been producing the best fashion 
                     services across the globe.
@@ -137,7 +140,7 @@
 
     <section id="collections" class="collections">
 
-        <div class="title">
+        <div class="title" data-aos="fade-down">
             <h1>Our Vintage Collections</h1>
             <h3>20% discount on every style!!</h3>
         </div>
@@ -147,13 +150,13 @@
         <div class="container">
             <div class="row">
 
-                <div class="wc casual1">
+                <div class="wc casual1" data-aos="flip-left">
                     <img src="images/wccasual.jpg">
                 </div>
-                <div class="wc gown">
+                <div class="wc gown" data-aos="flip-right">
                     <img src="images/wcgown.jpg">
                 </div> 
-                <div class="wc casual2">
+                <div class="wc casual2" data-aos="flip-left">
                     <img src="images/wccasual1.jpg">
                 </div>
             </div>
@@ -218,7 +221,13 @@
 
 
     <script src="https://use.fontawesome.com/8b7b9f4138.js">  </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="java/main.js"></script>
-    
+    <script>
+        AOS.init({
+            offset: 170,
+            duration: 1000
+        });
+    </script>
 </body>
 </html>
